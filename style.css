@@ -1,0 +1,186 @@
+body.turtle{
+	background: rgba(164,179,87,1);
+background: -moz-linear-gradient(left, rgba(164,179,87,1) 14%, rgba(164,179,87,1) 44%, rgba(117,137,12,1) 65%, rgba(117,137,12,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(14%, rgba(164,179,87,1)), color-stop(44%, rgba(164,179,87,1)), color-stop(65%, rgba(117,137,12,1)), color-stop(100%, rgba(117,137,12,1)));
+background: -webkit-linear-gradient(left, rgba(164,179,87,1) 14%, rgba(164,179,87,1) 44%, rgba(117,137,12,1) 65%, rgba(117,137,12,1) 100%);
+background: -o-linear-gradient(left, rgba(164,179,87,1) 14%, rgba(164,179,87,1) 44%, rgba(117,137,12,1) 65%, rgba(117,137,12,1) 100%);
+background: -ms-linear-gradient(left, rgba(164,179,87,1) 14%, rgba(164,179,87,1) 44%, rgba(117,137,12,1) 65%, rgba(117,137,12,1) 100%);
+background: linear-gradient(to right, rgba(164,179,87,1) 14%, rgba(164,179,87,1) 44%, rgba(117,137,12,1) 65%, rgba(117,137,12,1) 100%);
+}
+body.black{
+	background-color: black;
+}
+header{
+	position: fixed;
+	overflow: auto;
+	width: 100%;
+	background-color: green; 
+	color: yellow;
+}
+header p{
+	font-size: 2.5em;
+	float:left;
+	color:inherit;
+}
+header p a{
+	color:inherit;
+	padding:0px;
+	text-decoration: none;
+	background-color: inherit;
+}
+h1{
+	font-size: 2.5em;
+	font-family: 'Bungee Inline', cursive;
+
+}
+nav{
+	padding-top: 80px;
+}
+nav ul{
+	font-size: 1.5em;
+	float:right;
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+}
+nav a{
+	color:white;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+nav a:hover{
+	color:yellow;
+	font-weight: bold;
+	font-style: italic;
+}
+
+article{
+	padding-top: 160px;
+	-webkit-column-count: 3;
+	 -moz-column-count: 3;
+	 column-count: 3;
+	 overflow: auto;
+}
+form{
+	border:thin black solid;
+	width: 50%;	
+}
+p{
+	font-family: 'Oxygen', sans-serif;
+}
+.clearfix{
+	clear:both;
+}
+p a{
+	color:blue;
+	background-color: white;
+}
+a:hover{
+	font-weight: bold;
+	font-style: italic;
+}
+img{
+	-webkit-box-shadow: -2px 2px 4px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 4px 8px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 4px 8px rgba(0,0,0,0.75);
+	float: left;
+	padding: 5px;
+	border-radius: 35%;
+	margin:5px;
+}
+table{
+	font-family: 'Oxygen', sans-serif;
+	width:20%;
+	border-bottom:thick black solid;
+	border-left:thick black solid;
+	border-right:thick black solid;
+	float:right;
+	font-size: 1em;
+	background-color: white;
+}
+caption{
+	border:thick black solid;
+	background-color: white;
+	font-size: 1.1em;
+}
+tr{
+	font-family: times, sans-serif;
+	font-size:.90em;
+}
+tr:nth-of-type(even){
+	background-color:gold;
+}
+tr a{
+	text-decoration: none;
+}
+tr a:hover {
+	font-weight: bold;
+	font-style: italic;
+}
+.skiplink{
+	display:none;
+}
+*:focus, *:hover{
+	border: thin purple solid;
+}
+#inline{
+	display:inline;
+}
+#drawingInt{
+	padding-top: 160px;
+}
+.regular{
+	background-color: blue;
+}
+
+.error{
+	color: red;
+	display: block;
+}
+.noappear{
+	display: none;
+}
+.appear{
+	display: block;
+	size: 1.5em;
+}
+#statement{
+	font-weight: bold;
+	color: yellow;
+	size: 1.5em;
+}
+fieldset {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-right: 1em;
+	border: none;
+	background-color: #ffc;
+	padding: 1em;
+} 
+legend {
+	font-weight: bold;
+	padding-top:2em;
+}
+label {
+	display: inline;
+}
+input:not([type="radio"]):not([type="checkbox"]) {
+	display: block;
+	margin-bottom: 2em;
+	width: 20em;
+}
+.error {
+	color: red;
+}
+
+.msg {
+	color: purple;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+img{
+	float: left;
+}

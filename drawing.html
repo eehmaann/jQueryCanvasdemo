@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Draw with us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    	canvas {
+    		border: 1px solid black;
+            background-color: white;
+            padding-top: 160px;
+    	}
+        div {
+            float: left;
+        }
+    </style>
+</head>
+<body class="turtle">
+    <div id="drawingInt">
+    <h1>Art tool</h1>
+        <p> This was intended for you to be able to relax and draw something, or see a cat face.</p>
+        <label for="shape">Select an image: </label>
+        <select id="shape">
+            <option>Please select one:</option>
+            <option value="cat">Cat</option>
+            <option value="circle">Circle</option>
+            <option value="line">Line</option>
+            <option value="rectangle">Rectangle</option>
+        </select>
+        <br>
+        <label for="size" class="size">How wide of a brush stroke would you like</label>
+        <input type="number" class="size" id="size">
+        <br>
+        <label for="fill" class="fill">What color do you want to fill with?</label>
+        <input type="text" class="fill" id="fill">
+        <br>
+        <label for="color" class="color">What color lines do you want? </label>
+        <input type="text" class="color" id="color">
+        <br>
+        <label for="height" class="height">How high would you like the center to be?  Between 0 at top and 441 at bottom</label>
+        <input type="number" class="height" id="height">
+        <br>
+        <label for="width" class="width">Where would you like the shape to be horizotally?  Between 0 at top and 620 at bottom</label>
+        <input type="number" class="width" id="width">
+        <br>
+        <label for="radius" class="radius">What would you like the radius to be? </label>
+        <input type="number" class="radius" id="radius">
+        <br>
+        <label for="startX" class="startX">What would you like the starting x point to be for the line?</label>
+        <input type="number" class="startX" id="startX">
+        <br>
+        <label for="startY" class="startY">What would you like the starting y point to be for the line?</label>
+        <input type="number" class="startY" id="startY">
+        <br>
+        <label for="endX" class="endX">What would you like the ending x point to be for the line?</label>
+        <input type="number" class="endX" id="endX">
+        <br>
+        <label for="endY" class="endY">What would you like the ending y point to be for the line?</label>
+        <input type="number" class="endY" id="endY">
+        <br>
+         <label for="tall" class="tall">How tall would you like the rectangle?</label>
+        <input type="number" class="tall" id="tall">
+        <br>
+        <label for="long" class="long">How long would you like the rectangle?</label>
+        <input type="number" class="long" id="long">
+        <br>
+
+
+        <button id="create">Create image</button>
+         <button id="clear"> Clear canvas</button>
+      </div>
+     
+
+	  <canvas width="620" height="441" id="canvas1"></canvas>
+
+
+<!-- javascript -->
+    <script
+              src="http://code.jquery.com/jquery-3.1.1.min.js"
+              integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+              crossorigin="anonymous"></script>
+	<script src="js/jcanvas.min.js"></script>
+    <script src="js/drawing.js"></script>
+</body>
+</html>
